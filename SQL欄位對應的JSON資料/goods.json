@@ -1,0 +1,23 @@
+{
+  "goods": {
+    "-NDW_0hFnh4kgLRCfb00": {
+      "blackCat": 1,
+      "blackCatFee": 130,
+      "createTime": "2022-10-04 14:00:15",
+      "familyMart": 1,
+      "familyMartFee": 60,
+      "gState": "通過",
+      "goods_name": "樹梅派",
+      "info": "架 Web Server 的好幫手！",
+      "inventory": 2,
+      "packageHeight": 1,
+      "packageLength": 10,
+      "packageWidth": 10,
+      "postOffice": 1,
+      "postOfficeFee": 130,
+      "seller_id": "-NCbf_JOo7a8yi6jjq5Z",
+      "seven": 1,
+      "sevenFee": 60
+    }
+  }
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.iot_project">
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <!--
+ Required only if your app needs to access images or photos
+     that other apps created.
+    -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <!--
+ Required only if your app needs to access audio files
+         that other apps created.
+    -->
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <!--
+ If your app doesn't need to access media files that other apps created,
+         set the "maxSdkVersion" attribute to "28" instead.
+    -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/myproject_launcher"
+        android:label="購物商城"
+        android:roundIcon="@mipmap/myproject_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IOT_project"
+        tools:ignore="Instantiatable"
+        tools:targetApi="31">
+        <activity
+            android:name=".ItemDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".SearchResultsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.IOT_project.NoActionBar"/>
+        <activity
+            android:name=".Admin.ProductControlActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Admin.BecomeSellerControlActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".MyStore.EditStoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyProduct.EditProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminSellerProductActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Admin.AdminSellerReturnActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Admin.AdminBecomeSellerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Admin.AdminProductActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Admin.AdminSellerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Admin.AdminMemberActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Admin.AdminMainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.IOT_project.NoActionBar" />
+        <activity
+            android:name=".Admin.AdminLoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.IOT_project.NoActionBar" />
+        <activity
+            android:name=".Main.LogoutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_logout"
+            android:theme="@style/Theme.IOT_project.NoActionBar" />
+        <activity
+            android:name=".NewProduct.ShippingFeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewProduct.SetPriceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewProduct.NewProductClassificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewProduct.ProductDescribeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Cart.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRegister.ChooseBankAreaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRegister.ChooseBankBranchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRegister.ChooseBankNameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRegister.ChooseSellerAreaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRegister.ChooseSellerCountyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRegister.ChooseCitizenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewProduct.NewProductActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".OrderReturn" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".OrderInvaildFragment" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".OrderToBeShipFragment" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".member.MemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".salesRecord.SalesRecordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sellerStore.SellerStoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".salesRecord.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyProduct.MyProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyStore.MyStoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRegister.BankAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRegister.SellerDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerRegister.BecomeSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

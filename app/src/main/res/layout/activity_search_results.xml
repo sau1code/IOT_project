@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchResultsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_search_result_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/arrow_back_48px">
+
+        <EditText
+            android:id="@+id/editText_search_keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="搜尋"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/font_color"
+            app:srcCompat="@drawable/outline_search_black_20"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton_result_search"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="@color/Mycolor_4"
+            android:minHeight="48dp"
+            app:srcCompat="@drawable/outline_search_black_20"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="282dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton_search_result_shoppingcart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:padding="5dp"
+            app:srcCompat="@drawable/outline_shopping_cart_1"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="336dp"
+            tools:layout_editor_absoluteY="1dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_section"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_search_result_id">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_search_sort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/Mycolor_1"
+                android:drawableRight="@drawable/sort_48px"
+                android:text="排序"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_search_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/Mycolor_2"
+                android:drawableRight="@drawable/filter_alt_48px"
+                android:text="篩選"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_search_results"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_search_result" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

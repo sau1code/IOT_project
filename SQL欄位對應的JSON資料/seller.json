@@ -1,0 +1,24 @@
+{
+  "seller": {
+    "-NCbf_JOo7a8yi6jjq5Z": {
+      "IDNumber": "A123456789",
+      "bankAccount": "11",
+      "bankArea": "臺北",
+      "bankBranch": "民權分行",
+      "bankName": "004 臺灣銀行",
+      "bankNumber": "11",
+      "createTime": "2022-10-04 15:48:00",
+      "district": "中山區",
+      "postalCode": "111",
+      "sAddress": "1223",
+      "sBirthday": "2022-09-30",
+      "sCity": "基隆市",
+      "sCountry": "臺灣",
+      "sName": "yu",
+      "sState": "通過",
+      "seller_id": "-NCbf_JOo7a8yi6jjq5Z",
+      "storeName": "yu的賣場",
+      "storePicture": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA//9k=\n"
+    }
+  }
+}

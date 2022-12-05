@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/admin_menu1" >
+        <item android:id="@+id/member_management"
+            android:title="會員管理" android:icon="@drawable/profile_1"/>
+        <item android:id="@+id/seller_management"
+            android:title="賣家管理" android:icon="@drawable/seller"/>
+        <item android:id="@+id/item_management"
+            android:title="商品管理" android:icon="@drawable/list_items"/>
+        <item android:id="@+id/admin_logout"
+            android:title="管理者登出" android:icon="@drawable/logout"/>
+    </group>
+
+</menu>

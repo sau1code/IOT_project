@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_main_member"
+            android:checked="true"
+            android:icon="@drawable/profile_1"
+            android:title="會員中心" />
+<!--        <item-->
+<!--            android:id="@+id/menu_main_home"-->
+<!--            android:checked="true"-->
+<!--            android:icon="@drawable/home_48px"-->
+<!--            android:title="首頁" />-->
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subtitle"
+            android:title="">
+
+            <menu>
+
+                <item
+                    android:id="@+id/menu_main_logout"
+                    android:icon="@drawable/logout"
+                    android:title="登出" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

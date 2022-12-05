@@ -1,0 +1,1981 @@
+<resources>
+    <string name="app_name">IOT_project</string>
+    <string name="item_title">品名:</string>
+    <string name="item_store">店家名稱:</string>
+    <string name="item_price">價格:</string>
+    <string name="item_date">上架日期:</string>
+    <string-array name="item_name">
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+        <item>item 4</item>
+        <item>item 5</item>
+        <item>item 6</item>
+    </string-array>
+    <string-array name="productClass">
+        <item>最新商品</item>
+        <item>熱賣商品</item>
+        <item>男女衣著</item>
+        <item>男女鞋</item>
+        <item>3C與筆電</item>
+        <item>飾品</item>
+        <item>家電影音</item>
+        <item>寵物用品</item>
+        <item>美食伴手禮</item>
+        <item>文創商品</item>
+        <item>手機平板周邊</item>
+        <item>生活用品</item>
+        <item>嬰幼兒用品</item>
+        <item>戶外/旅行</item>
+        <item>美妝保健</item>
+        <item>汽機車零件</item>
+        <item>運動/健身</item>
+        <item>書籍及雜誌期刊</item>
+        <item>娛樂/收藏</item>
+        <item>其他類別</item>
+    </string-array>
+
+    <string-array name="citizenship">
+        <item>臺灣</item>
+        <item>香港</item>
+        <item>新加坡</item>
+        <item>澳門</item>
+    </string-array>
+
+    <string-array name="bank">
+        <item>004 臺灣銀行</item>
+        <item>006 合作金庫商業銀行</item>
+        <item>007 第一商業銀行</item>
+        <item>012 台北富邦商業銀行</item>
+        <item>013 國泰世華商業銀行</item>
+        <item>808 玉山商業銀行</item>
+        <item>822 中國信託商業銀行</item>
+    </string-array>
+
+    <string-array name="臺灣銀行基隆">
+        <item>臺灣銀行基隆分行</item>
+    </string-array>
+    <string-array name="臺灣銀行台北">
+        <item>館前分行</item>
+        <item>延平分行</item>
+        <item>中山分行</item>
+        <item>南門分行</item>
+        <item>公館分行</item>
+        <item>北投分行</item>
+        <item>城中分行</item>
+        <item>民權分行</item>
+        <item>松江分行</item>
+        <item>龍山分行</item>
+        <item>忠孝分行</item>
+        <item>信義分行</item>
+        <item>松山分行</item>
+        <item>士林分行</item>
+        <item>民生分行</item>
+        <item>臺北世貿中心分行</item>
+        <item>大安分行</item>
+        <item>敦化分行</item>
+        <item>南港分行</item>
+        <item>和平分行</item>
+        <item>中崙分行</item>
+        <item>仁愛分行</item>
+        <item>圓山分行</item>
+        <item>臺天母分行</item>
+        <item>內湖分行</item>
+        <item>群賢分行</item>
+        <item>文山分行</item>
+        <item>東湖分行</item>
+        <item>南港軟體園區分行</item>
+        <item>木柵分行</item>
+        <item>武昌分行</item>
+        <item>臺北分行</item>
+        <item>金山分行</item>
+        <item>信安分行</item>
+        <item>劍潭分行</item>
+        <item>萬華分行</item>
+        <item>新湖分行</item>
+        <item>臺北國際機場分行</item>
+    </string-array>
+    <string-array name="臺灣銀行新北">
+        <item>板橋分行</item>
+        <item>三重分行</item>
+        <item>連城分行</item>
+        <item>中和分行</item>
+        <item>新莊分行</item>
+        <item>樹林分行</item>
+        <item>新店分行</item>
+        <item>華江分行</item>
+        <item>土城分行</item>
+        <item>五股分行</item>
+        <item>淡水分行</item>
+        <item>汐止分行</item>
+        <item>蘆洲分行</item>
+        <item>北府簡易型分行</item>
+        <item>臺北港分行</item>
+        <item>板新分行</item>
+        <item>新永和分行</item>
+        <item>南新莊分行</item>
+        <item>新莊副都心分行</item>
+    </string-array>
+    <string-array name="臺灣銀行桃園">
+        <item>桃園分行</item>
+        <item>中壢分行</item>
+        <item>桃園國際機場分行</item>
+        <item>平鎮分行</item>
+        <item>南崁分行</item>
+        <item>內壢分行</item>
+        <item>建國分行</item>
+        <item>東桃園分行</item>
+        <item>龍潭分行</item>
+        <item>林口分行</item>
+        <item>桃興分行</item>
+        <item>新明分行</item>
+    </string-array>
+    <string-array name="臺灣銀行新竹">
+        <item>新竹分行</item>
+        <item>新竹科學園區分行</item>
+        <item>北大路分行</item>
+        <item>竹北分行</item>
+        <item>六家分行</item>
+    </string-array>
+    <string-array name="臺灣銀行苗栗">
+        <item>苗栗分行</item>
+        <item>頭份分行</item>
+    </string-array>
+    <string-array name="臺灣銀行台中">
+        <item>臺中分行</item>
+        <item>豐原分行</item>
+        <item>霧峰分行</item>
+        <item>潭子分行</item>
+        <item>復興分行</item>
+        <item>臺中港分行</item>
+        <item>健行分行</item>
+        <item>大甲分行</item>
+        <item>黎明分行</item>
+        <item>大雅分行</item>
+        <item>臺中工業區分行</item>
+        <item>水湳分行</item>
+        <item>大里分行</item>
+        <item>西屯分行</item>
+        <item>梧棲分行</item>
+        <item>太平分行</item>
+        <item>德芳分行</item>
+        <item>臺中科學園區分行</item>
+        <item>北臺中分行</item>
+        <item>中都分行</item>
+        <item>臺中國際機場分行</item>
+        <item>園區分行</item>
+    </string-array>
+    <string-array name="臺灣銀行彰化">
+        <item>彰化分行</item>
+        <item>員林分行</item>
+        <item>鹿港分行</item>
+    </string-array>
+    <string-array name="臺灣銀行南投">
+        <item>中興新村分行</item>
+        <item>南投分行</item>
+        <item>埔里分行</item>
+    </string-array>
+    <string-array name="臺灣銀行雲林">
+        <item>斗六分行</item>
+        <item>虎尾分行</item>
+    </string-array>
+    <string-array name="臺灣銀行嘉義">
+        <item>太保分行</item>
+    </string-array>
+    <string-array name="臺灣銀行台南">
+        <item>臺南分行</item>
+        <item>新營分行</item>
+        <item>安平分行</item>
+        <item>永康分行</item>
+        <item>安南分行</item>
+        <item>臺南科學園區分行</item>
+        <item>仁德分行</item>
+        <item>園區分行</item>
+        <item>南都分行</item>
+        <item>六甲頂分行</item>
+    </string-array>
+    <string-array name="臺灣銀行高雄">
+        <item>高雄分行</item>
+        <item>高雄加工出口區分行</item>
+        <item>鳳山分行</item>
+        <item>左營分行</item>
+        <item>前鎮分行</item>
+        <item>鼓山分行</item>
+        <item>三民分行</item>
+        <item>岡山分行</item>
+        <item>新興分行</item>
+        <item>苓雅分行</item>
+        <item>三多分行</item>
+        <item>楠梓分行</item>
+        <item>大昌分行</item>
+        <item>五甲分行</item>
+        <item>博愛分行</item>
+        <item>中庄分行</item>
+        <item>小港分行</item>
+        <item>高雄國際機場分行</item>
+        <item>高雄科學園區分行</item>
+        <item>高榮分行</item>
+        <item>北高雄分行</item>
+        <item>成功分行</item>
+        <item>五福分行</item>
+        <item>仁武分行</item>
+    </string-array>
+    <string-array name="臺灣銀行屏東">
+        <item>屏東分行</item>
+        <item>潮州分行</item>
+        <item>東港分行</item>
+        <item>中屏分行</item>
+        <item>屏東農科園區分行</item>
+    </string-array>
+    <string-array name="臺灣銀行台東">
+        <item>臺東分行</item>
+    </string-array>
+    <string-array name="臺灣銀行花蓮">
+        <item>花蓮分行</item>
+        <item>北花蓮分行</item>
+    </string-array>
+    <string-array name="臺灣銀行宜蘭">
+        <item>宜蘭分行</item>
+        <item>羅東分行</item>
+        <item>蘇澳分行</item>
+    </string-array>
+    <string-array name="臺灣銀行澎湖">
+        <item>澎湖分行</item>
+    </string-array>
+
+    <string-array name="合作金庫商業銀行基隆">
+        <item>基隆分行</item>
+        <item>東基隆分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行台北">
+        <item>台北分行</item>
+        <item>復旦分行</item>
+        <item>長春分行</item>
+        <item>北寧分行</item>
+        <item>城東分行</item>
+        <item>民生分行</item>
+        <item>復興分行</item>
+        <item>自強分行</item>
+        <item>松江分行</item>
+        <item>新生分行</item>
+        <item>忠孝分行</item>
+        <item>東台北分行</item>
+        <item>光復南路分行</item>
+        <item>民權分行</item>
+        <item>仁愛分行</item>
+        <item>信維分行</item>
+        <item>五洲分行</item>
+        <item>中山分行</item>
+        <item>敦南分行</item>
+        <item>建國分行</item>
+        <item>信義分行</item>
+        <item>東門分行</item>
+        <item>長安分行</item>
+        <item>大安分行</item>
+        <item>松興分行</item>
+        <item>南京東路分行</item>
+        <item>圓山分行</item>
+        <item>三興分行</item>
+        <item>世貿分行</item>
+        <item>台大分行</item>
+        <item>雙連分行</item>
+        <item>館前分行</item>
+        <item>古亭分行</item>
+        <item>大稻埕分行</item>
+        <item>南門分行</item>
+        <item>松山分行</item>
+        <item>大同分行</item>
+        <item>城內分行</item>
+        <item>永吉分行</item>
+        <item>民族分行</item>
+        <item>大直分行</item>
+        <item>西門分行</item>
+        <item>玉成分行</item>
+        <item>新湖分行</item>
+        <item>內湖分行</item>
+        <item>延平分行</item>
+        <item>西湖分行</item>
+        <item>士林分行</item>
+        <item>國醫中心分行</item>
+        <item>港湖分行</item>
+        <item>北士林分行</item>
+        <item>景美分行</item>
+        <item>大湖分行</item>
+        <item>南港分行</item>
+        <item>石牌分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行新北">
+        <item>東三重分行</item>
+        <item>三重分行</item>
+        <item>南三重分行</item>
+        <item>永和分行</item>
+        <item>中和分行</item>
+        <item>海山分行</item>
+        <item>二重分行</item>
+        <item>南勢角分行</item>
+        <item>埔墘分行</item>
+        <item>大坪林分行</item>
+        <item>立德分行</item>
+        <item>寶橋分行</item>
+        <item>五股分行</item>
+        <item>蘆洲分行</item>
+        <item>雙和分行</item>
+        <item>北中和分行</item>
+        <item>東新莊分行</item>
+        <item>北新分行</item>
+        <item>五股工業區分行</item>
+        <item>板橋分行</item>
+        <item>新泰分行</item>
+        <item>新店分行</item>
+        <item>新莊分行</item>
+        <item>南汐止分行</item>
+        <item>板新分行</item>
+        <item>北土城分行</item>
+        <item>新樹分行</item>
+        <item>丹鳳分行</item>
+        <item>汐止分行</item>
+        <item>土城分行</item>
+        <item>北樹林分行</item>
+        <item>南土城分行</item>
+        <item>林口文化分行</item>
+        <item>淡水分行</item>
+        <item>三峽分行</item>
+        <item>北三峽分行</item>
+        <item>鶯歌分行</item>
+        <item>樹林分行</item>
+        <item>泰山分行</item>
+    </string-array>
+
+    <string-array name="合作金庫商業銀行桃園">
+        <item>迴龍分行</item>
+        <item>長庚分行</item>
+        <item>林口分行</item>
+        <item>龜山分行</item>
+        <item>桃園分行</item>
+        <item>東桃園分行</item>
+        <item>慈文分行</item>
+        <item>南崁分行</item>
+        <item>八德分行</item>
+        <item>南桃園分行</item>
+        <item>蘆竹分行</item>
+        <item>大溪分行</item>
+        <item>中原分行</item>
+        <item>壢新分行</item>
+        <item>中壢分行</item>
+        <item>大園分行</item>
+        <item>平鎮分行</item>
+        <item>新明分行</item>
+        <item>龍潭分行</item>
+        <item>楊梅分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行新竹">
+        <item>竹東分行</item>
+        <item>六家分行</item>
+        <item>東竹北分行</item>
+        <item>竹北分行</item>
+        <item>新竹科學園區分行</item>
+        <item>光復分行</item>
+        <item>竹塹分行</item>
+        <item>北新竹分行</item>
+        <item>新竹分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行苗栗">
+        <item>頭份分行</item>
+        <item>竹南分行</item>
+        <item>北苗栗分行</item>
+        <item>苗栗分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行台中">
+        <item>后里分行</item>
+        <item>豐原分行</item>
+        <item>豐中分行</item>
+        <item>南豐原分行</item>
+        <item>神岡分行</item>
+        <item>潭子分行</item>
+        <item>軍功分行</item>
+        <item>大雅分行</item>
+        <item>松竹分行</item>
+        <item>太原分行</item>
+        <item>北屯分行</item>
+        <item>精武分行</item>
+        <item>中清分行</item>
+        <item>衛道分行</item>
+        <item>水湳分行</item>
+        <item>太平分行</item>
+        <item>北台中分行</item>
+        <item>西台中分行</item>
+        <item>中港分行</item>
+        <item>中興分行</item>
+        <item>中權分行</item>
+        <item>西屯分行</item>
+        <item>東沙鹿分行</item>
+        <item>台中分行</item>
+        <item>朝馬分行</item>
+        <item>東台中分行</item>
+        <item>永安分行</item>
+        <item>沙鹿分行</item>
+        <item>五權分行</item>
+        <item>建成分行</item>
+        <item>文心分行</item>
+        <item>北大里分行</item>
+        <item>忠明南路分行</item>
+        <item>南屯分行</item>
+        <item>美村分行</item>
+        <item>南台中分行</item>
+        <item>黎明分行</item>
+        <item>大里分行</item>
+        <item>烏日分行</item>
+        <item>新中分行</item>
+        <item>昌平分行</item>
+        <item>逢甲分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行彰化">
+        <item>溪湖分行</item>
+        <item>大竹分行</item>
+        <item>伸港分行</item>
+        <item>彰儲分行</item>
+        <item>彰化分行</item>
+        <item>彰營分行</item>
+        <item>南彰化分行</item>
+        <item>和美分行</item>
+        <item>員林分行</item>
+        <item>員新分行</item>
+        <item>鹿港分行</item>
+        <item>北斗分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行南投">
+        <item>埔里分行</item>
+        <item>東埔里分行</item>
+        <item>草屯分行</item>
+        <item>南投分行</item>
+        <item>集集分行</item>
+        <item>竹山分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行雲林">
+        <item>林內分行</item>
+        <item>雲林分行</item>
+        <item>斗六分行</item>
+        <item>虎尾分行</item>
+        <item>北港分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行嘉義">
+        <item>東嘉義分行</item>
+        <item>嘉義分行</item>
+        <item>北嘉義分行</item>
+        <item>南嘉義分行</item>
+        <item>朴子分行</item>
+        <item>北朴子分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行台南">
+        <item>新營分行</item>
+        <item>北新營分行</item>
+        <item>佳里分行</item>
+        <item>永康分行</item>
+        <item>南永康分行</item>
+        <item>開元分行</item>
+        <item>成大分行</item>
+        <item>北台南分行</item>
+        <item>東台南分行</item>
+        <item>台南分行</item>
+        <item>赤崁分行</item>
+        <item>仁德分行</item>
+        <item>成功分行</item>
+        <item>南興分行</item>
+        <item>府城分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行高雄">
+        <item>美濃分行</item>
+        <item>旗山分行</item>
+        <item>路竹分行</item>
+        <item>北岡山分行</item>
+        <item>岡山分行</item>
+        <item>大社分行</item>
+        <item>大樹分行</item>
+        <item>楠梓分行</item>
+        <item>仁美分行</item>
+        <item>左營分行</item>
+        <item>鼓山分行</item>
+        <item>鳳松分行</item>
+        <item>灣內分行</item>
+        <item>九如分行</item>
+        <item>鳳山分行</item>
+        <item>十全分行</item>
+        <item>興鳳分行</item>
+        <item>三民分行</item>
+        <item>大發分行</item>
+        <item>大順分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行屏東">
+        <item>屏東分行</item>
+        <item>屏南分行</item>
+        <item>社皮分行</item>
+        <item>萬丹分行</item>
+        <item>枋寮分行</item>
+        <item>潮州分行</item>
+        <item>東港分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行台東">
+        <item>台東分行</item>
+        <item>東台東分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行花蓮">
+        <item>北花蓮分行</item>
+        <item>花蓮分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行宜蘭">
+        <item>礁溪分行</item>
+        <item>宜蘭分行</item>
+        <item>北羅東分行</item>
+        <item>羅東分行</item>
+        <item>蘇澳分行</item>
+    </string-array>
+    <string-array name="合作金庫商業銀行澎湖">
+        <item>澎湖分行</item>
+    </string-array>
+    <string-array name="第一商業銀行基隆">
+        <item>基隆分行</item>
+        <item>哨船頭分行</item>
+    </string-array>
+    <string-array name="第一商業銀行臺北">
+        <item>忠孝路分行</item>
+        <item>南門分行</item>
+        <item>大稻埕分行</item>
+        <item>建成分行</item>
+        <item>大同分行</item>
+        <item>華山分行</item>
+        <item>中山分行</item>
+        <item>圓山分行</item>
+        <item>新生分行</item>
+        <item>吉林分行</item>
+        <item>大直分行</item>
+        <item>松江分行</item>
+        <item>建國分行</item>
+        <item>南京東路分行</item>
+        <item>城東分行</item>
+        <item>復興分行</item>
+        <item>民權分行</item>
+        <item>長春分行</item>
+        <item>光復分行</item>
+        <item>松山分行</item>
+        <item>中崙分行</item>
+        <item>民生分行</item>
+        <item>古亭分行</item>
+        <item>公館分行</item>
+        <item>信維分行</item>
+        <item>信義分行</item>
+        <item>和平分行</item>
+        <item>敦化分行</item>
+        <item>安和分行</item>
+        <item>大安分行</item>
+        <item>世貿分行</item>
+        <item>仁愛分行</item>
+        <item>八德分行</item>
+        <item>仁和分行</item>
+        <item>延吉分行</item>
+        <item>西門分行</item>
+        <item>萬華分行</item>
+        <item>雙園分行</item>
+        <item>松貿分行</item>
+        <item>興雅分行</item>
+        <item>永春分行</item>
+        <item>天母分行</item>
+        <item>士林分行</item>
+        <item>劍潭分行</item>
+        <item>北投分行</item>
+        <item>石牌分行</item>
+        <item>內湖分行</item>
+        <item>東湖分行</item>
+        <item>內科園區分行</item>
+        <item>新湖分行</item>
+        <item>南港分行</item>
+        <item>木柵分行</item>
+        <item>景美分行</item>
+    </string-array>
+    <string-array name="第一商業銀行新北">
+        <item>江子翠分行</item>
+        <item>華江分行</item>
+        <item>板橋分行</item>
+        <item>埔墘分行</item>
+        <item>汐止分行</item>
+        <item>汐科分行</item>
+        <item>瑞芳分行</item>
+        <item>大坪林分行</item>
+        <item>新店分行</item>
+        <item>永和分行</item>
+        <item>連城分行</item>
+        <item>中和分行</item>
+        <item>雙和分行</item>
+        <item>北土城分行</item>
+        <item>土城分行</item>
+        <item>樹林分行</item>
+        <item>鶯歌分行</item>
+        <item>長泰分行</item>
+        <item>三重埔分行</item>
+        <item>重陽分行</item>
+        <item>丹鳳分行</item>
+        <item>新莊分行</item>
+        <item>幸福分行</item>
+        <item>泰山分行</item>
+        <item>林口工二分行</item>
+        <item>蘆洲分行</item>
+        <item>五股分行</item>
+        <item>五股工業區分行</item>
+        <item>淡水分行</item>
+        <item>頭前分行</item>
+    </string-array>
+    <string-array name="第一商業銀行桃園">
+        <item>中壢分行</item>
+        <item>西壢分行</item>
+        <item>平鎮分行</item>
+        <item>內壢分行</item>
+        <item>龍潭分行</item>
+        <item>桃園分行</item>
+        <item>北桃分行</item>
+        <item>迴龍分行</item>
+        <item>林口分行</item>
+        <item>大湳分行</item>
+        <item>大溪分行</item>
+        <item>大園分行</item>
+        <item>南崁分行</item>
+    </string-array>
+    <string-array name="第一商業銀行新竹">
+        <item>東門分行</item>
+        <item>新竹分行</item>
+        <item>竹科分行</item>
+        <item>竹北分行</item>
+        <item>關西分行</item>
+        <item>竹東分行</item>
+    </string-array>
+    <string-array name="第一商業銀行苗栗">
+        <item>竹南分行</item>
+        <item>頭份分行</item>
+        <item>苗栗分行</item>
+    </string-array>
+    <string-array name="第一商業銀行台中">
+        <item>北台中分行</item>
+        <item>南台中分行</item>
+        <item>台中分行</item>
+        <item>進化分行</item>
+        <item>北屯分行</item>
+        <item>中港分行</item>
+        <item>南屯分行</item>
+        <item>太平分行</item>
+        <item>大里分行</item>
+        <item>豐原分行</item>
+        <item>東勢分行</item>
+        <item>大雅分行</item>
+        <item>中科分行</item>
+        <item>沙鹿分行</item>
+        <item>清水分行</item>
+        <item>大甲分行</item>
+    </string-array>
+    <string-array name="第一商業銀行彰化">
+        <item>彰化分行</item>
+        <item>鹿港分行</item>
+        <item>和美分行</item>
+        <item>員林分行</item>
+        <item>溪湖分行</item>
+        <item>北斗分行</item>
+    </string-array>
+    <string-array name="第一商業銀行南投">
+        <item>南投分行</item>
+        <item>草屯分行</item>
+        <item>埔里分行</item>
+    </string-array>
+    <string-array name="第一商業銀行雲林">
+        <item>虎尾分行</item>
+        <item>斗六分行</item>
+        <item>西螺分行</item>
+        <item>北港分行</item>
+    </string-array>
+    <string-array name="第一商業銀行嘉義">
+        <item>嘉義分行</item>
+        <item>興嘉分行</item>
+        <item>朴子分行</item>
+    </string-array>
+    <string-array name="第一商業銀行台南">
+        <item>赤崁分行</item>
+        <item>竹溪分行</item>
+        <item>台南分行</item>
+        <item>富強分行</item>
+        <item>金城分行</item>
+        <item>安南分行</item>
+        <item>永康分行</item>
+        <item>大灣分行</item>
+        <item>歸仁分行</item>
+        <item>新化分行</item>
+        <item>麻豆分行</item>
+        <item>佳里分行</item>
+        <item>新營分行</item>
+        <item>鹽水分行</item>
+        <item>南科園區分行</item>
+        <item>善化分行</item>
+    </string-array>
+    <string-array name="第一商業銀行高雄">
+        <item>新興分行</item>
+        <item>苓雅分行</item>
+        <item>高雄分行</item>
+        <item>五福分行</item>
+        <item>鹽埕分行</item>
+        <item>前鎮分行</item>
+        <item>三民分行</item>
+        <item>十全分行</item>
+        <item>灣內分行</item>
+        <item>楠梓分行</item>
+        <item>小港分行</item>
+        <item>左營分行</item>
+        <item>博愛分行</item>
+        <item>岡山分行</item>
+        <item>路竹分行</item>
+        <item>梓本分行</item>
+        <item>鳳山分行</item>
+        <item>五甲分行</item>
+        <item>林園分行</item>
+        <item>旗山分行</item>
+    </string-array>
+    <string-array name="第一商業銀行屏東">
+        <item>東港分行</item>
+        <item>屏東分行</item>
+        <item>潮州分行</item>
+        <item>萬巒分行</item>
+        <item>恆春分行</item>
+    </string-array>
+    <string-array name="第一商業銀行台東">
+        <item>台東分行</item>
+    </string-array>
+    <string-array name="第一商業銀行花蓮">
+        <item>花蓮分行</item>
+    </string-array>
+    <string-array name="第一商業銀行宜蘭">
+        <item>宜蘭分行</item>
+        <item>羅東分行</item>
+        <item>蘇澳分行</item>
+    </string-array>
+    <string-array name="第一商業銀行澎湖">
+        <item>澎湖分行</item>
+    </string-array>
+
+    <string-array name="台北富邦商業銀行台北">
+        <item>中山分行</item>
+        <item>松江分行</item>
+        <item>城東分行</item>
+        <item>南京東路分行</item>
+        <item>建國分行</item>
+        <item>中崙分行</item>
+        <item>民權分行</item>
+        <item>長安東路分行</item>
+        <item>大直分行</item>
+        <item>敦北分行</item>
+        <item>八德分行</item>
+        <item>敦南分行</item>
+        <item>西松分行</item>
+        <item>民生分行</item>
+        <item>松山分行</item>
+        <item>市府分行</item>
+        <item>永吉分行</item>
+        <item>基隆路分行</item>
+        <item>永春分行</item>
+        <item>莊敬分行</item>
+        <item>東門分行</item>
+        <item>延平分行</item>
+        <item>大同分行</item>
+        <item>建成分行</item>
+        <item>城中分行</item>
+        <item>古亭分行</item>
+        <item>南門分行</item>
+        <item>臨沂分行</item>
+        <item>雙園分行</item>
+        <item>萬華分行</item>
+        <item>桂林分行</item>
+        <item>大安分行</item>
+        <item>安和分行</item>
+        <item>信義分行</item>
+        <item>和平分行</item>
+        <item>仁愛分行</item>
+        <item>敦和分行</item>
+        <item>師大分行</item>
+        <item>忠孝分行</item>
+        <item>懷生分行</item>
+        <item>木柵分行</item>
+        <item>景美分行</item>
+        <item>興隆分行</item>
+        <item>北投分行</item>
+        <item>石牌分行</item>
+        <item>士林分行</item>
+        <item>福港分行</item>
+        <item>士東分行</item>
+        <item>天母分行</item>
+        <item>社子分行</item>
+        <item>內湖分行</item>
+        <item>西湖分行</item>
+        <item>東湖分行</item>
+        <item>文德分行</item>
+        <item>瑞湖分行</item>
+        <item>南港分行</item>
+        <item>玉成分行</item>
+        <item>松南分行</item>
+        <item>台北101分行</item>
+        <item>信安分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行新北">
+        <item>汐止分行</item>
+        <item>新莊分行</item>
+        <item>華江分行</item>
+        <item>板橋分行</item>
+        <item>埔墘分行</item>
+        <item>三重分行</item>
+        <item>正義分行</item>
+        <item>土城分行</item>
+        <item>中和分行</item>
+        <item>保生分行</item>
+        <item>永和分行</item>
+        <item>新店分行</item>
+        <item>蘆洲分行</item>
+        <item>樹林分行</item>
+        <item>新板分行</item>
+        <item>林口分行</item>
+        <item>三峽分行</item>
+        <item>得和分行</item>
+        <item>南勢角分行</item>
+        <item>淡水分行</item>
+        <item>北新莊分行</item>
+        <item>北新分行</item>
+        <item>新北大道分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行基隆">
+        <item>基隆分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行宜蘭">
+        <item>羅東分行</item>
+        <item>宜蘭分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行花蓮">
+        <item>花蓮分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行台東">
+        <item>台東分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行桃園">
+        <item>桃園分行</item>
+        <item>中正分行</item>
+        <item>中壢分行</item>
+        <item>北中壢分行</item>
+        <item>大湳分行</item>
+        <item>南崁分行</item>
+        <item>東林口分行</item>
+        <item>南桃園分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行新竹">
+        <item>光明分行</item>
+        <item>竹科分行</item>
+        <item>風城分行</item>
+        <item>新竹分行</item>
+        <item>竹北分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行苗栗">
+        <item>竹南分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行台中">
+        <item>南台中分行</item>
+        <item>台中分行</item>
+        <item>北台中分行</item>
+        <item>中港分行</item>
+        <item>豐原分行</item>
+        <item>大里分行</item>
+        <item>國美分行</item>
+        <item>北屯分行</item>
+        <item>西屯分行</item>
+        <item>市政府分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行彰化">
+        <item>員林分行</item>
+        <item>彰化分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行南投"></string-array>
+    <string-array name="台北富邦商業銀行雲林">
+        <item>斗六分行</item>
+        <item>虎尾分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行嘉義">
+        <item>嘉義分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行台南">
+        <item>台南分行</item>
+        <item>東寧分行</item>
+        <item>永康分行</item>
+        <item>新營分行</item>
+        <item>東台南分行</item>
+        <item>北台南分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行高雄">
+        <item>博愛分行</item>
+        <item>港都分行</item>
+        <item>鼓山分行</item>
+        <item>三民分行</item>
+        <item>前鎮分行</item>
+        <item>鳳山分行</item>
+        <item>高雄分行</item>
+        <item>左營分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行屏東">
+        <item>屏東分行</item>
+    </string-array>
+    <string-array name="台北富邦商業銀行澎湖"></string-array>
+    <string-array name="國泰世華商業銀行台北">
+        <item>南門分行</item>
+        <item>華山分行</item>
+        <item>臨沂分行</item>
+        <item>館前分行</item>
+        <item>台北分行</item>
+        <item>建成分行</item>
+        <item>大同分行</item>
+        <item>新生分行</item>
+        <item>中山分行</item>
+        <item>民生分行</item>
+        <item>建國分行</item>
+        <item>南京東路分行</item>
+        <item>松江分行</item>
+        <item>大直分行</item>
+        <item>光華分行</item>
+        <item>西松分行</item>
+        <item>永平分行</item>
+        <item>慶城分行</item>
+        <item>中崙分行</item>
+        <item>八德分行</item>
+        <item>光復分行</item>
+        <item>復興分行</item>
+        <item>民權分行</item>
+        <item>城東分行</item>
+        <item>三民分行</item>
+        <item>敦南分行</item>
+        <item>中正分行</item>
+        <item>古亭分行</item>
+        <item>東門分行</item>
+        <item>信安分行</item>
+        <item>敦化分行</item>
+        <item>仁愛分行</item>
+        <item>大安分行</item>
+        <item>忠孝分行</item>
+        <item>信義分行</item>
+        <item>安和分行</item>
+        <item>和平分行</item>
+        <item>萬華分行</item>
+        <item>西門分行</item>
+        <item>松勤分行</item>
+        <item>松山分行</item>
+        <item>世貿分行</item>
+        <item>永春分行</item>
+        <item>文昌分行</item>
+        <item>蘭雅分行</item>
+        <item>天母分行</item>
+        <item>士林分行</item>
+        <item>忠誠分行</item>
+        <item>北投分行</item>
+        <item>石牌分行</item>
+        <item>南內湖分行</item>
+        <item>新湖分行</item>
+        <item>東湖分行</item>
+        <item>內湖分行</item>
+        <item>文德分行</item>
+        <item>內科分行</item>
+        <item>瑞湖分行</item>
+        <item>南港分行</item>
+        <item>文山分行</item>
+        <item>景美分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行新北">
+        <item>華江分行</item>
+        <item>板橋分行</item>
+        <item>埔墘分行</item>
+        <item>後埔分行</item>
+        <item>板東分行</item>
+        <item>新板分行</item>
+        <item>汐止分行</item>
+        <item>新店分行</item>
+        <item>寶橋分行</item>
+        <item>北新分行</item>
+        <item>永貞分行</item>
+        <item>永和分行</item>
+        <item>福和分行</item>
+        <item>中和分行</item>
+        <item>連城分行</item>
+        <item>雙和分行</item>
+        <item>土城分行</item>
+        <item>學府分行</item>
+        <item>樹林分行</item>
+        <item>二重分行</item>
+        <item>三重分行</item>
+        <item>重新分行</item>
+        <item>北三重分行</item>
+        <item>正義分行</item>
+        <item>新泰分行</item>
+        <item>新莊分行</item>
+        <item>幸福分行</item>
+        <item>丹鳳分行</item>
+        <item>新樹分行</item>
+        <item>東林口分行</item>
+        <item>蘆洲分行</item>
+        <item>淡水分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行基隆">
+        <item>基隆分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行宜蘭">
+        <item>宜蘭分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行新竹">
+        <item>竹科分行</item>
+        <item>新竹分行</item>
+        <item>竹城分行</item>
+        <item>香山分行</item>
+        <item>竹北分行</item>
+        <item>六家分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行桃園">
+        <item>北中壢分行</item>
+        <item>中壢分行</item>
+        <item>桃興分行</item>
+        <item>桃園分行</item>
+        <item>北桃園分行</item>
+        <item>同德分行</item>
+        <item>林口分行</item>
+        <item>大湳分行</item>
+        <item>南崁分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行苗栗">
+        <item>苗栗分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行台中">
+        <item>東台中分行</item>
+        <item>五權分行</item>
+        <item>西台中分行</item>
+        <item>台中分行</item>
+        <item>南屯分行</item>
+        <item>健行分行</item>
+        <item>篤行分行</item>
+        <item>昌平分行</item>
+        <item>崇德分行</item>
+        <item>逢甲分行</item>
+        <item>西屯分行</item>
+        <item>水湳分行</item>
+        <item>市政分行</item>
+        <item>中港分行</item>
+        <item>文心分行</item>
+        <item>公益分行</item>
+        <item>太平分行</item>
+        <item>大里分行</item>
+        <item>豐原分行</item>
+        <item>潭子分行</item>
+        <item>大雅分行</item>
+        <item>沙鹿分行</item>
+        <item>清水分行</item>
+        <item>大甲分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行彰化">
+        <item>彰化分行</item>
+        <item>彰美分行</item>
+        <item>員林分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行南投">
+        <item>南投分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行嘉義">
+        <item>嘉義分行</item>
+        <item>嘉泰分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行雲林">
+        <item>斗六分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行台南">
+        <item>台南分行</item>
+        <item>東台南分行</item>
+        <item>臨安分行</item>
+        <item>成功分行</item>
+        <item>永康分行</item>
+        <item>新營分行</item>
+        <item>善化分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行高雄">
+        <item>新興分行</item>
+        <item>前金分行</item>
+        <item>四維分行</item>
+        <item>東高雄分行</item>
+        <item>苓雅分行</item>
+        <item>明誠分行</item>
+        <item>前鎮分行</item>
+        <item>南高雄分行</item>
+        <item>大昌分行</item>
+        <item>高雄分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行屏東">
+        <item>屏東分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行台東">
+        <item>台東分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行花蓮">
+        <item>花蓮分行</item>
+    </string-array>
+    <string-array name="國泰世華商業銀行澎湖"></string-array>
+    <string-array name="玉山商業銀行基隆">
+        <item>基隆分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行台北">
+        <item>南京東路分行</item>
+        <item>中崙分行</item>
+        <item>城中分行</item>
+        <item>古亭分行</item>
+        <item>城東分行</item>
+        <item>民生分行</item>
+        <item>長春分行</item>
+        <item>中山分行</item>
+        <item>民權分行</item>
+        <item>新生分行</item>
+        <item>基隆路分行</item>
+        <item>松山分行</item>
+        <item>信義分行</item>
+        <item>南山廣場分行</item>
+        <item>天母分行</item>
+        <item>成功分行</item>
+        <item>士林分行</item>
+        <item>復興分行</item>
+        <item>敦南分行</item>
+        <item>和平分行</item>
+        <item>大安分行</item>
+        <item>台大分行</item>
+        <item>東門分行</item>
+        <item>內湖分行</item>
+        <item>東湖分行</item>
+        <item>新湖分行</item>
+        <item>北投分行</item>
+        <item>木柵分行</item>
+        <item>忠孝分行</item>
+        <item>建成分行</item>
+        <item>南港分行</item>
+        <item>仁愛分行</item>
+        <item>台北分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行新北">
+        <item>新莊分行</item>
+        <item>北新莊分行</item>
+        <item>新樹分行</item>
+        <item>雙和分行</item>
+        <item>永和分行</item>
+        <item>集賢分行</item>
+        <item>永安分行</item>
+        <item>中和分行</item>
+        <item>連城分行</item>
+        <item>泰和分行</item>
+        <item>南勢角分行</item>
+        <item>埔墘分行</item>
+        <item>板新分行</item>
+        <item>新板特區分行</item>
+        <item>光復分行</item>
+        <item>板橋分行</item>
+        <item>三和分行</item>
+        <item>三重分行</item>
+        <item>東三重分行</item>
+        <item>二重分行</item>
+        <item>土城分行</item>
+        <item>南土城分行</item>
+        <item>樹林分行</item>
+        <item>三峽分行</item>
+        <item>迴龍分行</item>
+        <item>五股分行</item>
+        <item>新店分行</item>
+        <item>北新分行</item>
+        <item>蘆洲分行</item>
+        <item>新莊副都心分行</item>
+        <item>汐止分行</item>
+        <item>東林口分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行桃園">
+        <item>桃園分行</item>
+        <item>中路特區分行</item>
+        <item>桃鶯分行</item>
+        <item>藝文分行</item>
+        <item>林口分行</item>
+        <item>南崁分行</item>
+        <item>八德分行</item>
+        <item>中壢分行</item>
+        <item>壢新分行</item>
+        <item>中原分行</item>
+        <item>楊梅分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行新竹">
+        <item>新竹分行</item>
+        <item>光華分行</item>
+        <item>竹科分行</item>
+        <item>竹北分行</item>
+        <item>新豐分行</item>
+        <item>六家分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行苗栗">
+        <item>竹南分行</item>
+        <item>頭份分行</item>
+        <item>後龍分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行台中">
+        <item>文心分行</item>
+        <item>大墩分行</item>
+        <item>南屯分行</item>
+        <item>台中分行</item>
+        <item>西屯分行</item>
+        <item>中工分行</item>
+        <item>太平分行</item>
+        <item>北屯分行</item>
+        <item>烏日分行</item>
+        <item>五權分行</item>
+        <item>豐原分行</item>
+        <item>大里分行</item>
+        <item>大雅分行</item>
+        <item>沙鹿分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行彰化">
+        <item>彰化分行</item>
+        <item>員林分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行南投">
+        <item>草屯分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行雲林">
+        <item>斗六分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行嘉義">
+        <item>嘉義分行</item>
+        <item>東嘉義分行</item>
+        <item>朴子分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行台南">
+        <item>台南分行</item>
+        <item>東台南分行</item>
+        <item>金華分行</item>
+        <item>安南分行</item>
+        <item>永康分行</item>
+        <item>鹽行分行</item>
+        <item>佳里分行</item>
+        <item>仁德分行</item>
+        <item>新營分行</item>
+        <item>南永康分行</item>
+    </string-array>
+
+    <string-array name="玉山商業銀行高雄">
+        <item>高雄分行</item>
+        <item>苓雅分行</item>
+        <item>前鎮分行</item>
+        <item>七賢分行</item>
+        <item>北高雄分行</item>
+        <item>大昌分行</item>
+        <item>澄清分行</item>
+        <item>左營分行</item>
+        <item>楠梓分行</item>
+        <item>小港分行</item>
+        <item>鳳山分行</item>
+        <item>岡山分行</item>
+        <item>林園分行</item>
+        <item>後庄分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行屏東">
+        <item>屏東分行</item>
+        <item>東港分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行宜蘭">
+        <item>羅東分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行花蓮">
+        <item>花蓮分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行台東">
+        <item>台東分行</item>
+    </string-array>
+    <string-array name="玉山商業銀行澎湖">
+        <item>澎湖分行</item>
+    </string-array>
+
+
+    <string-array name="中國信託商業銀行台北">
+        <item>敦北分行</item>
+        <item>城東分行</item>
+        <item>中崙分行</item>
+        <item>城中分行</item>
+        <item>中山分行</item>
+        <item>仁愛分行</item>
+        <item>敦南分行</item>
+        <item>忠孝分行</item>
+        <item>南京東路分行</item>
+        <item>松山分行</item>
+        <item>公館分行</item>
+        <item>天母分行</item>
+        <item>內湖分行</item>
+        <item>永吉分行</item>
+        <item>市府分行</item>
+        <item>東湖分行</item>
+        <item>大安分行</item>
+        <item>承德分行</item>
+        <item>復興分行</item>
+        <item>石牌分行</item>
+        <item>城北分行</item>
+        <item>萬華分行</item>
+        <item>西松分行</item>
+        <item>北投分行</item>
+        <item>安和分行</item>
+        <item>西湖分行</item>
+        <item>瑞光分行</item>
+        <item>民生分行</item>
+        <item>復北分行</item>
+        <item>延吉分行</item>
+        <item>信義分行</item>
+        <item>士林分行</item>
+        <item>東民生分行</item>
+        <item>文山分行</item>
+        <item>富錦分行</item>
+        <item>站前分行</item>
+        <item>木柵分行</item>
+        <item>東門分行</item>
+        <item>劍潭分行</item>
+        <item>華山分行</item>
+        <item>龍江分行</item>
+        <item>成功分行</item>
+        <item>大直分行</item>
+        <item>景美分行</item>
+        <item>長安分行</item>
+        <item>北天母分行</item>
+        <item>民權西路分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行基隆">
+        <item>基隆分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行新北">
+        <item>三重分行</item>
+        <item>雙和分行</item>
+        <item>板橋分行</item>
+        <item>新莊分行</item>
+        <item>蘆洲分行</item>
+        <item>新店分行</item>
+        <item>土城分行</item>
+        <item>板新分行</item>
+        <item>重陽分行</item>
+        <item>永和分行</item>
+        <item>江翠分行</item>
+        <item>中和分行</item>
+        <item>重新分行</item>
+        <item>丹鳳分行</item>
+        <item>北新店分行</item>
+        <item>汐止分行</item>
+        <item>金城分行</item>
+        <item>樹林分行</item>
+        <item>南勢角分行</item>
+        <item>北新莊分行</item>
+        <item>淡水分行</item>
+        <item>民安分行</item>
+        <item>二重埔分行</item>
+        <item>東蘆洲分行</item>
+        <item>新板特區分行</item>
+        <item>三和分行</item>
+        <item>北蘆洲分行</item>
+        <item>寶強分行</item>
+        <item>重慶分行</item>
+        <item>板和分行</item>
+        <item>埔墘分行</item>
+        <item>新富分行</item>
+        <item>三峽分行</item>
+        <item>東林口分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行宜蘭">
+        <item>宜蘭分行</item>
+        <item>羅東分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行新竹">
+        <item>新竹分行</item>
+        <item>東新竹分行</item>
+        <item>竹科分行</item>
+        <item>寶山分行</item>
+        <item>光復分行</item>
+        <item>六家庄分行</item>
+        <item>竹北分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行桃園">
+        <item>中壢分行</item>
+        <item>桃園分行</item>
+        <item>南崁分行</item>
+        <item>中原分行</item>
+        <item>南桃園分行</item>
+        <item>北桃園分行</item>
+        <item>八德分行</item>
+        <item>林口分行</item>
+        <item>藝文分行</item>
+        <item>內壢分行</item>
+        <item>南中壢分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行苗栗">
+        <item>頭份分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行台中">
+        <item>台中分行</item>
+        <item>中港分行</item>
+        <item>豐原分行</item>
+        <item>文心分行</item>
+        <item>太平分行</item>
+        <item>南屯分行</item>
+        <item>大里分行</item>
+        <item>洲際分行</item>
+        <item>科博館分行</item>
+        <item>西屯分行</item>
+        <item>惠中分行</item>
+        <item>市政分行</item>
+        <item>黎明分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行彰化">
+        <item>員林分行</item>
+        <item>彰化分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行南投">
+        <item>南投分行 </item>
+    </string-array>
+    <string-array name="中國信託商業銀行嘉義">
+        <item>嘉義分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行雲林">
+        <item>斗六分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行台南">
+        <item>台南分行</item>
+        <item>西台南分行</item>
+        <item>永康分行</item>
+        <item>中華分行</item>
+        <item>仁德分行</item>
+        <item>中台南分行</item>
+        <item>東台南分行</item>
+        <item>南台南分行</item>
+        <item>新營分行</item>
+        <item>佳里分行</item>
+        <item>鹽行分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行高雄">
+        <item>高雄分行 </item>
+        <item>三民分行</item>
+        <item>新興分行</item>
+        <item>東高雄分行</item>
+        <item>高美館分行</item>
+        <item>右昌分行</item>
+        <item>北高雄分行</item>
+        <item>民族分行</item>
+        <item>南高雄分行</item>
+        <item>九如分行</item>
+        <item>鳳山分行</item>
+        <item>五甲分行</item>
+        <item>青年分行</item>
+        <item>岡山分行</item>
+        <item>博愛分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行屏東">
+        <item>屏東分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行台東">
+        <item>台東分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行花蓮">
+        <item>東花蓮分行</item>
+        <item>花蓮分行</item>
+    </string-array>
+    <string-array name="中國信託商業銀行澎湖"></string-array>
+
+    <string-array name="bankArea">
+        <item>臺北市</item>
+        <item>基隆市</item>
+        <item>新北市</item>
+        <item>宜蘭縣</item>
+        <item>新竹地區</item>
+        <item>桃園市</item>
+        <item>苗栗縣</item>
+        <item>臺中市</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>嘉義地區</item>
+        <item>雲林縣</item>
+        <item>臺南市</item>
+        <item>高雄市</item>
+        <item>屏東縣</item>
+        <item>澎湖縣</item>
+        <item>臺東縣</item>
+        <item>花蓮縣</item>
+    </string-array>
+
+    <string-array name="taiwan_city">
+        <item>臺北市</item>
+        <item>基隆市</item>
+        <item>新北市</item>
+        <item>宜蘭縣</item>
+        <item>連江縣</item>
+        <item>新竹縣</item>
+        <item>新竹市</item>
+        <item>桃園市</item>
+        <item>苗栗縣</item>
+        <item>臺中市</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>嘉義市</item>
+        <item>嘉義縣</item>
+        <item>雲林縣</item>
+        <item>臺南市</item>
+        <item>高雄市</item>
+        <item>屏東縣</item>
+        <item>澎湖縣</item>
+        <item>金門縣</item>
+        <item>臺東縣</item>
+        <item>花蓮縣</item>
+    </string-array>
+
+    <string-array name="taipei">
+        <item>中正區</item>
+        <item>大同區</item>
+        <item>中山區</item>
+        <item>松山區</item>
+        <item>大安區</item>
+        <item>萬華區</item>
+        <item>信義區</item>
+        <item>士林區</item>
+        <item>北投區</item>
+        <item>內湖區</item>
+        <item>南港區</item>
+        <item>文山區</item>
+    </string-array>
+
+    <string-array name="keelung">
+        <item>仁愛區</item>
+        <item>信義區</item>
+        <item>中正區</item>
+        <item>中山區</item>
+        <item>安樂區</item>
+        <item>暖暖區</item>
+        <item>七堵區</item>
+    </string-array>
+
+    <string-array name="newtaipei">
+        <item>萬里區</item>
+        <item>金山區</item>
+        <item>板橋區</item>
+        <item>汐止區</item>
+        <item>深坑區</item>
+        <item>石碇區</item>
+        <item>瑞芳區</item>
+        <item>平溪區</item>
+        <item>雙溪區</item>
+        <item>貢寮區</item>
+        <item>新店區</item>
+        <item>坪林區</item>
+        <item>烏來區</item>
+        <item>永和區</item>
+        <item>中和區</item>
+        <item>土城區</item>
+        <item>三峽區</item>
+        <item>樹林區</item>
+        <item>鶯歌區</item>
+        <item>三重區</item>
+        <item>新莊區</item>
+        <item>泰山區</item>
+        <item>林口區</item>
+        <item>蘆洲區</item>
+        <item>五股區</item>
+        <item>八里區</item>
+        <item>淡水區</item>
+        <item>三芝區</item>
+        <item>石門區</item>
+    </string-array>
+
+    <string-array name="yilan">
+        <item>宜蘭市</item>
+        <item>頭城鎮</item>
+        <item>礁溪鄉</item>
+        <item>壯圍鄉</item>
+        <item>員山鄉</item>
+        <item>羅東鎮</item>
+        <item>三星鄉</item>
+        <item>大同鄉</item>
+        <item>五結鄉</item>
+        <item>冬山鄉</item>
+        <item>蘇澳鎮</item>
+        <item>南澳鄉</item>
+    </string-array>
+
+    <string-array name="lienchiang">
+        <item>南竿鄉</item>
+        <item>北竿鄉</item>
+        <item>莒光鄉</item>
+        <item>東引鄉</item>
+    </string-array>
+
+    <string-array name="hsinchu_city">
+        <item>東　區</item>
+        <item>北　區</item>
+        <item>香山區</item>
+    </string-array>
+
+    <string-array name="hsinchu">
+        <item>竹北市</item>
+        <item>湖口鄉</item>
+        <item>新豐鄉</item>
+        <item>新埔鎮</item>
+        <item>關西鎮</item>
+        <item>芎林鄉</item>
+        <item>寶山鄉</item>
+        <item>竹東鎮</item>
+        <item>五峰鄉</item>
+        <item>橫山鄉</item>
+        <item>尖石鄉</item>
+        <item>北埔鄉</item>
+        <item>峨眉鄉</item>
+    </string-array>
+
+    <string-array name="taoyuan">
+        <item>中壢區</item>
+        <item>平鎮區</item>
+        <item>龍潭區</item>
+        <item>楊梅區</item>
+        <item>新屋區</item>
+        <item>觀音區</item>
+        <item>桃園區</item>
+        <item>龜山區</item>
+        <item>八德區</item>
+        <item>大溪區</item>
+        <item>復興區</item>
+        <item>大園區</item>
+        <item>蘆竹區</item>
+    </string-array>
+
+    <string-array name="miaoli">
+        <item>竹南鎮</item>
+        <item>頭份市</item>
+        <item>三灣鄉</item>
+        <item>南庄鄉</item>
+        <item>獅潭鄉</item>
+        <item>後龍鎮</item>
+        <item>通霄鎮</item>
+        <item>苑裡鎮</item>
+        <item>苗栗市</item>
+        <item>造橋鄉</item>
+        <item>頭屋鄉</item>
+        <item>公館鄉</item>
+        <item>大湖鄉</item>
+        <item>泰安鄉</item>
+        <item>銅鑼鄉</item>
+        <item>三義鄉</item>
+        <item>西湖鄉</item>
+        <item>卓蘭鎮</item>
+    </string-array>
+
+    <string-array name="taichung">
+        <item>中　區</item>
+        <item>東　區</item>
+        <item>南　區</item>
+        <item>西　區</item>
+        <item>北　區</item>
+        <item>北屯區</item>
+        <item>西屯區</item>
+        <item>南屯區</item>
+        <item>太平區</item>
+        <item>大里區</item>
+        <item>霧峰區</item>
+        <item>烏日區</item>
+        <item>豐原區</item>
+        <item>后里區</item>
+        <item>石岡區</item>
+        <item>東勢區</item>
+        <item>和平區</item>
+        <item>新社區</item>
+        <item>潭子區</item>
+        <item>大雅區</item>
+        <item>神岡區</item>
+        <item>大肚區</item>
+        <item>沙鹿區</item>
+        <item>龍井區</item>
+        <item>梧棲區</item>
+        <item>清水區</item>
+        <item>大甲區</item>
+        <item>外埔區</item>
+        <item>大安區</item>
+    </string-array>
+
+    <string-array name="changhua">
+        <item>彰化市</item>
+        <item>芬園鄉</item>
+        <item>花壇鄉</item>
+        <item>秀水鄉</item>
+        <item>鹿港鎮</item>
+        <item>福興鄉</item>
+        <item>線西鄉</item>
+        <item>和美鎮</item>
+        <item>伸港鄉</item>
+        <item>員林鎮</item>
+        <item>社頭鄉</item>
+        <item>永靖鄉</item>
+        <item>埔心鄉</item>
+        <item>溪湖鎮</item>
+        <item>大村鄉</item>
+        <item>埔鹽鄉</item>
+        <item>田中鎮</item>
+        <item>北斗鎮</item>
+        <item>田尾鄉</item>
+        <item>埤頭鄉</item>
+        <item>溪州鄉</item>
+        <item>竹塘鄉</item>
+        <item>二林鎮</item>
+        <item>大城鄉</item>
+        <item>芳苑鄉</item>
+        <item>二水鄉</item>
+    </string-array>
+
+    <string-array name="nantou">
+        <item>南投市</item>
+        <item>中寮鄉</item>
+        <item>草屯鎮</item>
+        <item>國姓鄉</item>
+        <item>埔里鎮</item>
+        <item>仁愛鄉</item>
+        <item>名間鄉</item>
+        <item>集集鎮</item>
+        <item>水里鄉</item>
+        <item>魚池鄉</item>
+        <item>信義鄉</item>
+        <item>竹山鎮</item>
+        <item>鹿谷鄉</item>
+    </string-array>
+
+    <string-array name="chiayi_city">
+        <item>東　區</item>
+        <item>西　區</item>
+    </string-array>
+
+    <string-array name="chiayi">
+        <item>番路鄉</item>
+        <item>梅山鄉</item>
+        <item>竹崎鄉</item>
+        <item>阿里山</item>
+        <item>中埔鄉</item>
+        <item>大埔鄉</item>
+        <item>水上鄉</item>
+        <item>鹿草鄉</item>
+        <item>太保市</item>
+        <item>朴子市</item>
+        <item>東石鄉</item>
+        <item>六腳鄉</item>
+        <item>新港鄉</item>
+        <item>民雄鄉</item>
+        <item>大林鎮</item>
+        <item>溪口鄉</item>
+        <item>義竹鄉</item>
+        <item>布袋鎮</item>
+    </string-array>
+
+    <string-array name="yunlin">
+        <item>斗南鎮</item>
+        <item>大埤鄉</item>
+        <item>虎尾鎮</item>
+        <item>土庫鎮</item>
+        <item>褒忠鄉</item>
+        <item>東勢鄉</item>
+        <item>臺西鄉</item>
+        <item>崙背鄉</item>
+        <item>麥寮鄉</item>
+        <item>斗六市</item>
+        <item>林內鄉</item>
+        <item>古坑鄉</item>
+        <item>莿桐鄉</item>
+        <item>西螺鎮</item>
+        <item>二崙鄉</item>
+        <item>北港鎮</item>
+        <item>水林鄉</item>
+        <item>口湖鄉</item>
+        <item>四湖鄉</item>
+        <item>元長鄉</item>
+    </string-array>
+
+    <string-array name="tainan">
+        <item>中西區</item>
+        <item>東　區</item>
+        <item>南　區</item>
+        <item>北　區</item>
+        <item>安平區</item>
+        <item>安南區</item>
+        <item>永康區</item>
+        <item>歸仁區</item>
+        <item>新化區</item>
+        <item>左鎮區</item>
+        <item>玉井區</item>
+        <item>楠西區</item>
+        <item>南化區</item>
+        <item>仁德區</item>
+        <item>關廟區</item>
+        <item>龍崎區</item>
+        <item>官田區</item>
+        <item>麻豆區</item>
+        <item>佳里區</item>
+        <item>西港區</item>
+        <item>七股區</item>
+        <item>將軍區</item>
+        <item>學甲區</item>
+        <item>北門區</item>
+        <item>新營區</item>
+        <item>後壁區</item>
+        <item>白河區</item>
+        <item>東山區</item>
+        <item>六甲區</item>
+        <item>下營區</item>
+        <item>柳營區</item>
+        <item>鹽水區</item>
+        <item>善化區</item>
+        <item>大內區</item>
+        <item>山上區</item>
+        <item>新市區</item>
+        <item>安定區</item>
+    </string-array>
+
+    <string-array name="kaohsiung">
+        <item>新興區</item>
+        <item>前金區</item>
+        <item>苓雅區</item>
+        <item>鹽埕區</item>
+        <item>鼓山區</item>
+        <item>旗津區</item>
+        <item>前鎮區</item>
+        <item>三民區</item>
+        <item>楠梓區</item>
+        <item>小港區</item>
+        <item>左營區</item>
+        <item>仁武區</item>
+        <item>大社區</item>
+        <item>岡山區</item>
+        <item>路竹區</item>
+        <item>阿蓮區</item>
+        <item>田寮區</item>
+        <item>燕巢區</item>
+        <item>橋頭區</item>
+        <item>梓官區</item>
+        <item>彌陀區</item>
+        <item>永安區</item>
+        <item>湖內區</item>
+        <item>鳳山區</item>
+        <item>大寮區</item>
+        <item>林園區</item>
+        <item>鳥松區</item>
+        <item>大樹區</item>
+        <item>旗山區</item>
+        <item>美濃區</item>
+        <item>六龜區</item>
+        <item>內門區</item>
+        <item>杉林區</item>
+        <item>甲仙區</item>
+        <item>桃源區</item>
+        <item>那瑪夏</item>
+        <item>茂林區</item>
+        <item>茄萣區</item>
+    </string-array>
+
+    <string-array name="pingtung">
+        <item>屏東市</item>
+        <item>三地門</item>
+        <item>霧臺鄉</item>
+        <item>瑪家鄉</item>
+        <item>九如鄉</item>
+        <item>里港鄉</item>
+        <item>高樹鄉</item>
+        <item>鹽埔鄉</item>
+        <item>長治鄉</item>
+        <item>麟洛鄉</item>
+        <item>竹田鄉</item>
+        <item>內埔鄉</item>
+        <item>萬丹鄉</item>
+        <item>潮州鎮</item>
+        <item>泰武鄉</item>
+        <item>來義鄉</item>
+        <item>萬巒鄉</item>
+        <item>崁頂鄉</item>
+        <item>新埤鄉</item>
+        <item>南州鄉</item>
+        <item>林邊鄉</item>
+        <item>東港鎮</item>
+        <item>琉球鄉</item>
+        <item>佳冬鄉</item>
+        <item>新園鄉</item>
+        <item>枋寮鄉</item>
+        <item>枋山鄉</item>
+        <item>春日鄉</item>
+        <item>獅子鄉</item>
+        <item>車城鄉</item>
+        <item>牡丹鄉</item>
+        <item>恆春鎮</item>
+        <item>滿州鄉</item>
+    </string-array>
+
+    <string-array name="penghu">
+        <item>馬公市</item>
+        <item>西嶼鄉</item>
+        <item>望安鄉</item>
+        <item>七美鄉</item>
+        <item>白沙鄉</item>
+        <item>湖西鄉</item>
+    </string-array>
+
+    <string-array name="kinmen">
+        <item>金沙鎮</item>
+        <item>金湖鎮</item>
+        <item>金寧鄉</item>
+        <item>金城鎮</item>
+        <item>烈嶼鄉</item>
+        <item>烏坵鄉</item>
+    </string-array>
+
+    <string-array name="taitung">
+        <item>臺東市</item>
+        <item>綠島鄉</item>
+        <item>蘭嶼鄉</item>
+        <item>延平鄉</item>
+        <item>卑南鄉</item>
+        <item>鹿野鄉</item>
+        <item>關山鎮</item>
+        <item>海端鄉</item>
+        <item>池上鄉</item>
+        <item>東河鄉</item>
+        <item>成功鎮</item>
+        <item>長濱鄉</item>
+        <item>太麻里</item>
+        <item>金峰鄉</item>
+        <item>大武鄉</item>
+        <item>達仁鄉</item>
+    </string-array>
+
+    <string-array name="hualien">
+        <item>花蓮市</item>
+        <item>新城鄉</item>
+        <item>秀林鄉</item>
+        <item>吉安鄉</item>
+        <item>壽豐鄉</item>
+        <item>鳳林鎮</item>
+        <item>光復鄉</item>
+        <item>豐濱鄉</item>
+        <item>瑞穗鄉</item>
+        <item>萬榮鄉</item>
+        <item>玉里鎮</item>
+        <item>卓溪鄉</item>
+        <item>富里鄉</item>
+    </string-array>
+
+    <string-array name="seller_type_goods_pic">
+        <item>@drawable/inpods_demo</item>
+        <item>@drawable/okinawa</item>
+        <item>@drawable/cat2</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_logout">LogoutActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

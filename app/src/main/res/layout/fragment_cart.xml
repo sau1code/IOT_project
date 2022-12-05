@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Cart.CartActivity">
+
+    <RelativeLayout
+        android:id="@+id/RelaitiveLayout_bar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/Mycolor_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ImageView_Cart_back"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/outline_arrow_back_white_48" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="56dp"
+            android:text="購物車"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/shoppingCart_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RelaitiveLayout_bar"
+        app:tabIndicatorColor="@color/Mycolor_1"
+        app:tabRippleColor="#A5A5A5"
+        app:tabSelectedTextColor="@color/Mycolor_1"
+        app:tabTextColor="@color/font_color">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/shoppingCart_allProduct_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="所有商品" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/shoppingCart_buyAgain_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="再買一次" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/ShoppingCart_ViewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoppingCart_tabLayout" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="12dp"
+        android:background="@drawable/cart_view_color_8up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoppingCart_tabLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
